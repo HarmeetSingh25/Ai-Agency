@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from './component/Nav'
-import MainRoutes from './MainRoutes'
+import MainRoutes from './Routes/MainRoutes'
+// import MainRoutes from './MainRoutes'
 
 const App = () => {
   return (

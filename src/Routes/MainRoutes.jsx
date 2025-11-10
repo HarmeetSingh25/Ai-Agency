@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, Routes } from "react-router";
-import Home from "./Pages/Home";
-import Services from "./Pages/services";
-import Work from "./Pages/work";
-import Testimonial from "./Pages/Testimonial";
+import Home from "../Pages/Home";
+import Services from "../Pages/Services";
+import Work from "../Pages/work";
+import Testimonial from "../Pages/Testimonial";
 const MainRoutes = () => {
   return (
     <div>

@@ -11,11 +11,11 @@ const Nav = () => {
       : "hover:text-amber-400 transition";
 
   return (
-    <nav className="p-4 bg-gray-800 text-white shadow-md sticky top-0 z-50">
+<nav className="p-4 bg-gradient-to-r from-gray-900/40 via-gray-800/40 to-gray-900/40 backdrop-blur-lg border-b border-white/10 text-white sticky top-0 z-50">
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src={logo} alt="Logo" className="h-10 object-contain" />
+          <img src={logo} alt="Logo" className="h-8 object-contain" />
         </div>
 
         {/* Desktop Links */}
@@ -32,12 +32,12 @@ const Nav = () => {
           <NavLink className={linkClasses} to="/testimonial">
             Testimonial
           </NavLink>
-
           {/* Desktop Button */}
           <button className="px-4 py-2 rounded-md bg-amber-500 hover:bg-amber-600 transition flex items-center gap-2">
             Connect <i className="ri-arrow-right-line"></i>
           </button>
         </div>
+
 
         {/* Mobile Menu Button */}
         <button
